@@ -1,9 +1,9 @@
 /* 
-    EERIE BLACK :  23231a
-    CAMBRIDGE BLUE : 7fc6a4
-    ATOMIC TANGERINE : ff9b71
-    CORNELL RED : bf211e
-    AUBURN : ad2831
+    EERIE BLACK :  #23231a
+    CAMBRIDGE BLUE : #7fc6a4
+    ATOMIC TANGERINE : #ff9b71
+    CORNELL RED : #bf211e
+    AUBURN : #ad2831
 */
 
 * {
@@ -13,6 +13,7 @@
 
 html {
     background-color: whitesmoke;
+    font-family: Verdana;
 }
 
 .header_navbar_heading {
@@ -49,20 +50,40 @@ html {
 
 .header_navlist li a:hover{
     color: whitesmoke;
+    background-color: #ad2831;
+    padding: 9px;
+    border-radius: 9px;
+    text-decoration: underline whitesmoke 2px;
+}
+
+.hero{
+    margin: 3rem 9rem;
+    margin-top: 8rem;
 }
 
 .hero_heading{
+    margin-bottom: 2rem;
     font-size: 3rem;
     color:#23231a;
     max-width: 50%;
 }
 
 .hero_para{
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
     max-width: 50%;
 }
 
 .hero_image{
-    float: right;
-    height: 400px;
+    /* float: right; */
+    height: 350px;
     width: 600px;
+}
+
+.hero.button{
+    margin-top: 1rem;
+    border-radius: 20px;
+    padding: 1.5rem;
+    background-color: #ad2831;
+    color: whitesmoke;
 }
