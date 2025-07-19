@@ -1,0 +1,68 @@
+/* 
+    EERIE BLACK :  23231a
+    CAMBRIDGE BLUE : 7fc6a4
+    ATOMIC TANGERINE : ff9b71
+    CORNELL RED : bf211e
+    AUBURN : ad2831
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: whitesmoke;
+}
+
+.header_navbar_heading {
+    font-size: 1.5rem;
+    color: #23231a;
+}
+
+.header_navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #bf211e;
+    padding: 10px 20px;
+}
+
+.header_navlist {
+    display: flex;
+    list-style: none;
+}
+
+.header_navlist li {
+  margin-right: 20px;
+}
+
+.header_navlist li:last-child{
+    margin-right: 0;
+}
+
+.header_navlist li a{
+    font-size: 1.125rem;
+    text-decoration: none;
+    color: #23231a;
+}
+
+.header_navlist li a:hover{
+    color: whitesmoke;
+}
+
+.hero_heading{
+    font-size: 3rem;
+    color:#23231a;
+    max-width: 50%;
+}
+
+.hero_para{
+    max-width: 50%;
+}
+
+.hero_image{
+    float: right;
+    height: 400px;
+    width: 600px;
+}
